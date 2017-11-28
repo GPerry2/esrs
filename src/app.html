@@ -102,13 +102,13 @@ It is best to avoid the use of IDs on HTML elements because
 
 <!-- endbuild -->
 <!--@if ENV!='prod'-->
-<script type="text/javascript" src="<!--@echo ROOT_ENV-->/c3api_config/v2/ConfigService.svc/ConfigSet('eco_roof/combined.js')/ConfigContent"></script>
+<script type="text/javascript" src="<!--@echo ROOT_ENV-->/c3api_config/v2/ConfigService.svc/ConfigSet('esrs/combined.js')/ConfigContent"></script>
 <script type="text/javascript">
 </script>
 <!--@endif-->
 <script>
-  const src_path = "<!--@echo SRC_PATH-->";
+  const src_path = "<!--@echo SRC_PATH-->"; 
   const httpHost = "<!--@echo ENV-->" ;
-  const configURL = "<!--@echo ROOT_ENV-->/c3api_config/v2/ConfigService.svc/ConfigSet('eco_roof/combined.json')/ConfigContent";
+  const configURL = "<!--@echo ROOT_ENV-->/c3api_config/v2/ConfigService.svc/ConfigSet('esrs/combined.json')/ConfigContent";
 </script>
 <!-- cot-app:footer end-->
